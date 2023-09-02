@@ -1,0 +1,17 @@
+{
+    "name": "Page Summary Extention",
+    "description": "An extention to generate Summary or impoartant points of the current webpage.      ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "summary-128.png",
+        "16": "summary-16.png",
+        "32": "summary-32.png"
+    },
+    "action": {
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "activeTab","tabs"
+    ]
+}
